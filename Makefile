@@ -4,7 +4,7 @@ all:
 	pdflatex $(TARGET).tex
 
 clean:
-	rm *.log *.aux
+	rm *.log
 
 view:
 	evince $(TARGET).pdf &
