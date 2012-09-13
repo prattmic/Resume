@@ -3,6 +3,8 @@
 \documentclass[margin,line,letterpaper]{resume}
 \special{papersize=8.5in,11in}
 
+\usepackage{hyperref}
+
 % To build!!!!
 % latex michael-pratt-resume.tex
 % dvips -t letter michael-pratt-resume.dvi
@@ -19,7 +21,7 @@
 
     2106 Woodbury Drive             \hfill mobile: (919) 271-4250          \vspace{0mm}\\\vspace{0mm}%
     Hillsborough, NC 27278          \hfill e-mail: michael@pratt.im      \vspace{0mm}\\\vspace{0mm}%
-                                    \hfill web: github.com/prattmic      \vspace{0mm}\\\vspace{-4.5mm}%
+                                    \hfill web: \href{http://github.com/prattmic}{github.com/prattmic}      \vspace{0mm}\\\vspace{-4.5mm}%
 
 
     %________________________________________________________________________________________________
@@ -52,9 +54,10 @@
     \textsl{Hardware and Software Systems Engineer} \hfill \textbf{August 2011 -- present}\vspace{-3mm}\\\vspace{-1mm}%
     \begin{list2}
     \item Develop and maintain hardware and software solutions for unmanned aerial systems
+    \item Building an easy-to-use interface for a machine vision camera using the Python C API
     \item Active developer of computer vision based automatic target recognition software
     \item Developed autotracking system for unattended ground-to-plane communication
-    \item Payload operator for 2012 team at the AUVSI Student Unmanned Aerial Systems competition.
+    \item Payload operator for 2012 team at the AUVSI Student Unmanned Aerial Systems competition
     \end{list2}\vspace{-1.5mm}
 
     \textbf{Orange County Schools}, Hillsborough, North Carolina \vspace{2mm}\\\vspace{1mm}%
@@ -62,9 +65,12 @@
     \begin{list2}
     \item Maintained and repaired school computers and network
     \item Assisted in initial implementation of computer ghosting system 
-    \item Lead project to upgrade computer ghosting system
     \item Worked independently to solve IT issues
     \end{list2}\vspace{-1.5mm}
+
+    \textbf{Personal projects} and open source contributions can be found at \href{http://github.com/prattmic}{github.com/prattmic},
+    including F4OS, a real time operating system developed for ARM Cortex-M4 processors, featuring real time task scheduling,
+    memory management, IO abstration, and more.
 
 
     %________________________________________________________________________________________________
@@ -114,8 +120,8 @@
     \section{\mysidestyle Relevant Coursework}
 
     \begin{list2}
-    \item Electric Circuits (in progress)
-    \item Signals, Circuits, and Systems
+    \item Microelectronics, Linear Systems (in progress)
+    \item Electric Circuits I and II
     \item Computer Systems Programming (C)
     \end{list2}\vspace{-1.5mm}
 
