@@ -5,8 +5,6 @@
 
 \usepackage{hyperref}
 
-\addtolength{\topmargin}{-6mm}
-
 %____________________________________________________________________________________________________
 \begin{document}
 \name{\Large Michael Pratt}
@@ -23,16 +21,24 @@
 
 
     %________________________________________________________________________________________________
-    % Research Interests
+    % Objective
     \section{\mysidestyle Objective}
 
-    To expand my knowledge of embedded and operating systems through internship experience.
-
+    Designing, building, optimizing embedded and/or operating systems.  Kernel hacking; circuit hacking.
 
 
     %________________________________________________________________________________________________
     % Experience
     \section{\mysidestyle Relevant Experience}
+
+    \textbf{Google}, Mountain View, California \vspace{1mm}\\\vspace{1mm}%
+    \textsl{Software Engineering Intern}, Platform Linux Kernel Team \hfill \textbf{May -- August 2014}\vspace{-3mm}\\\vspace{-1mm}%
+    \begin{list2}
+    \item Contributed to new process-level virtualization solution
+    \item Developed application loader to set up process-level virtualization
+    \item Added a new Linux system call to provide fine-grained control of process memory layout
+    \item Became familiar with Intel virtualization extensions and ELF binary format
+    \end{list2}
 
     \textbf{Google}, Mountain View, California \vspace{1mm}\\\vspace{1mm}%
     \textsl{Software Engineering Intern}, Google Chrome OS \hfill \textbf{May -- August 2013}\vspace{-3mm}\\\vspace{-1mm}%
@@ -41,8 +47,7 @@
     \item Ensured eMMC boot met the Chrome OS boot security requirements
     \item Worked primarily on the U-Boot bootloader and Chrome OS Verified Boot
     \item Interfaced with ARM SoC peripherals and the Linux kernel
-    \item Learned to work on a fast-moving project with several other developers
-    \end{list2}\vspace{-1.5mm}
+    \end{list2}
 
     \textbf{Aerial Robotics Club}, North Carolina State University Student Organization \vspace{1mm}\\\vspace{1mm}%
     \textsl{Payload Team Lead} \hfill \textbf{August 2012 -- present}\\
@@ -50,52 +55,36 @@
     \begin{list2}
     \item Develop and maintain hardware and software solutions for unmanned aerial systems
     \item Synthesize subsystems into a complete, autonomous, unmanned aerial system
+    \item Designed and built aircraft control failsafe PCB and software
     \item Built interface libraries to machine vision cameras and an autopilot with the Python C API
     \item Designed and implemented aerial imaging pipeline, from image capture aboard the aircraft
-        to target recognition and permanent image storage on the ground
-    \item 2013 team at AUVSI Student UAS competition took home 2nd place overall out of 35 teams
-    \end{list2}\vspace{-1.5mm}
+        to target characterization UI and permanent image storage on the ground
+    \item 2014 team at AUVSI Student UAS competition took home 1st place overall out of 28 teams
+    \end{list2}
 
     \textbf{F4OS}, Personal Project\vspace{1mm}\\\vspace{1mm}%
     \textsl{\href{http://github.com/prattmic/F4OS}{github.com/prattmic/F4OS}}  \hfill \textbf{May 2012 -- present} \vspace{-3mm}\\\vspace{-1mm}%
     \begin{list2}
-    \item Real-time operating system supporting several ARM Cortex-M4 microcontrollers
+    \item Real-time operating system supporting several ARM microcontrollers and processors
     \item Soft real-time scheduling using a preemptive rate-monotonic scheduler
-    \item Modular memory management sybsystem, with multiple memory management schemes
+    \item Modular memory management subsystem, with multiple memory management schemes
     \item Flexible object framework allows typed resources to define unique operations
-    \end{list2}\vspace{-1.5mm}
-
-    %________________________________________________________________________________________________
-    % Other Experience
-    \vspace{2.5mm}
-    \section{\mysidestyle Other Experience}
-
-    \textbf{Orange County Schools}, Hillsborough, North Carolina \vspace{1mm}\\\vspace{1mm}%
-    \textsl{Information Technology Intern} \hfill \textbf{January -- June 2011}\vspace{-3mm}\\\vspace{-1mm}%
-    \begin{list2}
-    \item Maintained and repaired school computers and network
-    \item Assisted in initial implementation of computer ghosting system
-    \item Worked independently to solve IT problems
-    \end{list2}\vspace{-1.5mm}
-
-    \textbf{Boy Scouts of America}, Durham, North Carolina \vspace{1mm}\\\vspace{1mm}%
-    \textsl{Senior Patrol Leader} \hfill \textbf{January 2010 -- January 2011}\\
-    \textsl{Eagle Scout Award} \hfill \textbf{October 2010}\vspace{-3mm}\\
-    \begin{list2}
-    \item As Senior Patrol Leader, led troop meetings, activities, and leadership council
-    \item For Eagle Scout project, designed and led project to improve an elementary school nature trail
-    \end{list2}\vspace{-1.5mm}
+    \end{list2}
 
 
     %________________________________________________________________________________________________
     % Computer Skills
     \vspace{2.5mm}
     \section{\mysidestyle Programming}
-    C, Python, ARM Assembly, Go, Bash
+    C, Python, ARM Assembly, Go, Bash, x86 Assembly
     \vspace{-5mm}
 
     \section{\mysidestyle Software}
-    Linux, Git, GDB, Make, Altium Designer, CADsoft Eagle, \LaTeX, HTML
+    Linux, Git, GDB, GNU Make, Altium Designer, CADsoft Eagle, \LaTeX, HTML
+    \vspace{-5mm}
+
+    \section{\mysidestyle Embedded}
+    ARM Cortex-M4F (STM32F4, Tiva C), AVR, MSP430, JTAG (J-Link, ST-Link)
 
     %________________________________________________________________________________________________
     % Education
@@ -105,16 +94,19 @@
     \textsl{North Carolina State University}, Raleigh, North Carolina\vspace{-3mm}\\\vspace{-1mm}%
     \begin{list2}
         \item Current GPA: \textbf{4.00/4.00}
-        \item Courses include: Elements of Controls, Microelectronics, Introduction to Embedded Systems,
-            Discrete Control Systems (Grad), Compiler Optimization and Scheduling
-    \end{list2}\vspace{-1.5mm}
+        \item Courses include: Microelectronics, Elements of Controls,
+            Discrete Control Systems (Grad), \\ % Hack to prevent hyphenation
+            Compiler Optimization and Scheduling, Advanced Microprocessor System Design
+    \end{list2}
 
 
     %________________________________________________________________________________________________
     % Honors and Awards
     \section{\mysidestyle Honors and\\Awards}
 
-    Dean's List, North Carolina State University, Fall 2011 through Fall 2013   \vspace{-8mm}\\%
+    Payload Team Lead on 1st place AUVSI Student UAS competition team, June 2014 \vspace{-8mm}\\
+
+    Dean's List, North Carolina State University, Fall 2011 through Spring 2014 \vspace{-8mm}\\%
 
     Goodnight Scholarship, North Carolina State University, 2011              \vspace{-8mm}\\%
 
