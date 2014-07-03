@@ -1,7 +1,7 @@
 TARGET=michael-pratt-resume
 
 all:
-	pdflatex $(TARGET).tex
+	latexmk -pdf $(TARGET).tex
 
 clean:
 	rm *.log
